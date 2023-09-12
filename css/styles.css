@@ -1,0 +1,40 @@
+@import url(/css/header.css);
+@import url(/css/content.css);
+@import url(/css/timer.css);
+@import url(/css/footer.css);
+
+:root {
+    --fonte-principal: 'Dosis', sans-serif;
+    --fonte-destaque: 'Comfortaa', cursive;
+    --cor-texto: #fff;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+[data-content="foco"] {
+    --bg-color: linear-gradient(180deg, rgba(57, 45, 117, 1) 0%, rgba(100, 71, 255, 1) 100%);
+}
+
+[data-content="curto"] {
+    --bg-color: linear-gradient(180deg, rgba(87, 7, 16, 1) 0%, rgba(202, 64, 64, 1) 100%);
+}
+
+[data-content="longo"] {
+    --bg-color: linear-gradient(180deg, rgba(88, 132, 111, 1) 0%, rgba(146, 255, 169, 1) 100%);
+}
+
+body {
+    font-family: var(--fonte-principal);
+    min-height: 100vh;
+    width: 100%;
+    background: var(--bg-color);
+    letter-spacing: 2px;
+}
+
+
+
+.container {
+    margin: 2rem;
+    padding: auto;
+}

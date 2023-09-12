@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    font-family: var(--fonte-destaque);
+    letter-spacing: 1px;
+    gap: 5px;
+    font-size: 1.5rem;
+    background-color: rgba(10, 23, 55, 0.1);
+    color: var(--cor-texto);
+
+}
+
+.title {
+    margin-right: 15px;
+}
